@@ -4,3 +4,11 @@ def user_payload(name, job):
         "job": job
     }
     return body
+
+
+def create_user_payload(username, password):
+    body = {
+        "userName": username,
+        "password": password
+    }
+    return body
